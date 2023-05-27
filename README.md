@@ -65,14 +65,12 @@
 
 ### 5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin
 
-skip
-`select*from hewan where species in ('cat', 'dog');`
+`select count(species='cat' and 'dog') as jumlah_spesies, count(sex) as jumlah_sex from hewan;`
+![p1](hewan/b5.png)
 
 ### 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
 
-skip
-`select * from hewan where sex is not null;`
+`select count(sex) from hewan where sex is not null;`
+![p1](hewan/b6.png)
 
-### Kesimpulan
-
-benar tapi beda aturan (aturan sesuai pertanyaan) tetapi sama kolom baris
+## Kesimpulan
