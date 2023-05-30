@@ -74,3 +74,9 @@
 ![p1](hewan/b6.png)
 
 ## Kesimpulan
+
+- operator in dan not in digunakan untuk memfilter data yang terdapat pada list
+- sum untuk menghitung jumlah nilai suatu kolom
+- count untuk menghitung jumlah baris suatu kolom
+- avg untuk menghitung nilai rata2 suatu kolom
+- min untuk menampilkan nilai terkecil sedangkan max menampilkan nilai terbesar
